@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -298,4 +302,24 @@ body {
 .form-container {
     max-width: 435px;
     margin: auto;
+}
+
+.submit-button {
+    display: flex;
+    padding: 7px 8px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #211b12;
+    border: none;
+    border-bottom: 2px solid #BF7506;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
 }
