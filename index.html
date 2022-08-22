@@ -26,22 +26,22 @@
         <nav class="navigation ">
             <ul class="nav-list ">
                 <li class="nav-item ">
-                    <a href=" " class="nav-link active ">Главная</a>
+                    <a href="#main " class="nav-link active ">Главная</a>
                 </li>
                 <li class="nav-item ">
-                    <a href=" " class="nav-link ">Проекты</a>
+                    <a href="#portfolio " class="nav-link ">Проекты</a>
                 </li>
                 <li class="nav-item ">
-                    <a href=" " class="nav-link ">Обо мне</a>
+                    <a href="#developer " class="nav-link ">Обо мне</a>
                 </li>
                 <li class="nav-item ">
-                    <a href=" " class="nav-link ">Связаться</a>
+                    <a href="#feedback " class="nav-link ">Связаться</a>
                 </li>
             </ul>
         </nav>
     </div>
     <!-- /navbar -->
-    <header class="header container ">
+    <header class="header container " id="main ">
         <img src="img/avatar.png " alt="Руслан " class="header-photo ">
         <div class="header-text ">
             <strong class="header-strong ">Привет 👋</strong>
@@ -53,7 +53,7 @@
                     <li class="social-item "><a href="# " class="social-link "><img src="img/icons/Social-2.svg " alt=" " class="social-logo "></a></li>
                     <li class="social-item "><a href="# " class="social-link "><img src="img/icons/Social-3.svg " alt=" " class="social-logo "></a></li>
                     <li class="social-item "><a href="# " class="social-link "><img src="img/icons/Social-4.svg " alt=" " class="social-logo "></a></li>
-                        
+
                         <!-- /.social-link -->
                     <!-- /.social-item -->
                 </ul>
@@ -70,7 +70,7 @@
         <!-- /.header photo -->
     </header>
     <!-- /.header -->
-    <section class="portfolio ">
+    <section class="portfolio " id="portfolio ">
         <div class="container ">
             <h2 class="section-heading ">Последние проекты</h2>
                 <div class="cards ">
@@ -139,7 +139,7 @@
         </div>
     </section>
     <!-- /.portfolio -->
-    <section class="developer container ">
+    <section class="developer container " id="developer ">
         <img src="img/developer.png " alt=" " class="developer-photo ">
         <div class="developer-about ">
             <span class="developer-hello ">Рад вас видеть</span>
@@ -153,7 +153,7 @@
             <span class="motto ">Код, Дизайн, Обучение</span>
             <!-- /.motto -->
             <p class="developer-text ">
-                Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: 
+                Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть:
 Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
             </p>
             <!-- /.developer-text -->
@@ -161,7 +161,7 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
         </div>
     </section>
     <!-- /.developer container -->
-    <section class="skills container ">
+    <section class="skills container " id="skills ">
         <h2 class="skills-title ">Работаю с разными языками и инструментами</h2>
         <ul class="tags ">
             <li class="tags-item "><a href="# " class="tag ">HTML</a></li>
@@ -176,9 +176,10 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
         </ul>
     </section>
     <!--skills container-->
-    <section class="feedback form-container ">
-        <h2 class="feedback-title ">Готов обсудить проект</h2>
-
+    <section class="feedback " id="feedback ">
+        <img src="img/hand.png " alt="hand " class="feedback-hand ">
+        <div class="form-container ">
+            <h2 class="feedback-title ">Готов обсудить проект</h2>
             <form action="# " class="form ">
                 <div class="input-group ">
                     <label for="userName " class="input-label ">Имя</label>
@@ -204,6 +205,7 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
                 </div>
                 <!-- /.input-group -->
             </form>
+        </div>
     </section>
     <!-- /.feedback -->
 </body>
