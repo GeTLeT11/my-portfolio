@@ -392,9 +392,9 @@ body {
     }
     .header {
         padding-top: 30px;
-        flex-direction: column;
         text-align: center;
     }
+
     .header-links,
     .cards,
     .navbar {
@@ -411,11 +411,11 @@ body {
     }
 }
 
-@media (max-widht: 480px) {
+@media (max-width: 480px) {
     .form-container {
         width: 90%;
     }
-    .nav-list {
+    .nav-list{
         flex-direction: column;
     }
     .nav-link {
